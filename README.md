@@ -22,7 +22,7 @@ import pygit2
 
 ssh_user = "git"
 ssh_key = {"private": "id_rsa", "public": "id_rsa.pub"}
-repo_url = "git@git.bizidea.co.th:Bizidea/Wellman_addon.git"
+repo_url = "git@github.com:ritz078/embed.js.git"
 working_dir = "workdir"
 
 cred = pygit2.Keypair(ssh.user, ssh_key.public, ssh_key.private, "")
